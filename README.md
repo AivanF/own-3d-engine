@@ -1,5 +1,8 @@
 # Own 3D engine using Qt, C++ with different algorithms and solids generating (w/o OpenGL)
 
+![Screenshot 1](https://github.com/AivanF/own-3d-engine/raw/master/Screenshot1.jpeg)
+![Screenshot 2](https://github.com/AivanF/own-3d-engine/blob/master/Screenshot2.jpeg?raw=true)
+
 ## 1. Functionality
 - Simple 3D engines with planty of models (may be generated programmatically or loaded from files) and scene objects (they have their own properties such as position and rotation).
 - Transform matrices with homogeneous coordinates: shifting, scaling, rotationg, perspective.

@@ -4,6 +4,7 @@
 ![Screenshot 2](https://github.com/AivanF/own-3d-engine/blob/master/Screenshot2.jpeg?raw=true)
 
 ## 1. Functionality
+
 - Simple 3D engines with planty of models (may be generated programmatically or loaded from files) and scene objects (they have their own properties such as position and rotation).
 - Transform matrices with homogeneous coordinates: shifting, scaling, rotationg, perspective.
 - Pruning of invisible edges with Roberts algorithm.
@@ -13,6 +14,7 @@
 - Many helpful math (generating of transform matrices, matrices and vectors multiplication, dot production, normals, and reflected vectors calculations) and other functions.
 
 ## 2. Control
+
 - Left/right arrow — scene rotating.
 - Z/X keys — scene scaling.
 - Q/E keys — change light intensity.
@@ -35,6 +37,7 @@ Programming language: C++. IDE: Qt Creator. Rendering created with standard faci
 - `helper` — Some helpful math and other functions.
 
 ## 4. Interesting points
+
 - During generation of dodecahedron initially pentagonal edges are created, which then are being splitted into 3 triangles.
 - Sphere model is creating through recursive "inflation" of tetrahedron. Recursion depth is under control: depth 0 gives 12 verticies and 20 edges (usual tetrahedron), depth 1 — 42 verticies and 80 edges, depth 2 — 222 verticies and 320 edges.
 - "Garlic" model was created from sphere transforming all the verticies this way: if Y greater than 0, than Y is increasing; if X or Z are close to 0, than other coordinate if decreasing. File `data.cpp`, function `createGarlic()`.
@@ -44,6 +47,7 @@ Programming language: C++. IDE: Qt Creator. Rendering created with standard faci
 - To reduce rendering time when using Z-buffer and light shading, picture dimensions are divided by 2.
 
 ## 5. Structure of model file
+
 The model files consist of 2 kinds of lines:
 - Vertex description: `0 x y z` where x,y and z are float numbers.
 - Triangle description: `1 a b c` where a, b and c are vertex indices.
@@ -51,6 +55,7 @@ The model files consist of 2 kinds of lines:
 Lines of different kinds may be passed in any order, only relative order of vertices must be the same to keep their indices.
 
 ## 6. References
+
 - [Stack Overflow: perspective projection](https://gamedev.stackexchange.com/a/106349)
 - [Wolfram MathWorld: Triangle Interior](http://mathworld.wolfram.com/TriangleInterior.html)
 - [Paul Bourke: Platonic Solids](http://paulbourke.net/geometry/platonic/)
@@ -59,8 +64,10 @@ Lines of different kinds may be passed in any order, only relative order of vert
 - [Wikipedia: Normal](https://en.wikipedia.org/wiki/Normal_(geometry))
 
 ## 7. License
-Copyright Barashev Ivan 2017 - All Rights Reserved
+
+Copyright Barashev Ivan 2017 - All Rights Reserved  
 Website: www.aivanf.com
+
 This is proprietary software. Unauthorized commercial use of this code via any medium is strictly prohibited.
 When use the code, you must give appropriate credit, provide a link to this license, and indicate if changes were made.
 The work is provided "as is". You may not hold the author liable.

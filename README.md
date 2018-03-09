@@ -65,9 +65,18 @@ Lines of different kinds may be passed in any order, only relative order of vert
 
 ## 7. License
 
-Copyright Barashev Ivan 2017 - All Rights Reserved  
-Website: www.aivanf.com
-
-This is proprietary software. Unauthorized commercial use of this code via any medium is strictly prohibited.
-When use the code, you must give appropriate credit, provide a link to this license, and indicate if changes were made.
-The work is provided "as is". You may not hold the author liable.
+This code is provided 'as-is', without any express or implied warranty.
+ You may not hold the author liable.
+ 
+Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it freely,
+ subject to the following restrictions:
+ 
+1. The origin of this code must not be misrepresented. You must not claim
+ that you wrote the original software. When use the code, you must give appropriate credit,
+ provide an active link to the original software, and indicate if changes were made.
+ 
+2. Altered source versions must be plainly marked as such, and must not be misrepresented
+ as being the original software.
+ 
+3. This notice may not be removed or altered from any source distribution.
